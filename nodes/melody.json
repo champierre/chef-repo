@@ -1,11 +1,13 @@
 {
 	"nginx": {
+		"server_name" : "melody",
 		"port" : 80
 	},
 	"run_list" : [
 	  "stop_iptables",
 	  "yum::epel",
 	  "zsh",
-    "nginx"
+    "nginx",
+    "rvm::ruby_1_9_3"
 	]
 }
