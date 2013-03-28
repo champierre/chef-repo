@@ -8,6 +8,7 @@
 	  "yum::epel",
 	  "zsh",
     "nginx",
-    "rvm::ruby_1_9_3"
+    "rvm::ruby_1_9_3",
+    "mysql"
 	]
 }
